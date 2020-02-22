@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct HomeView: View {
+    var categories: [String: [News]] {
+        .init(
+            grouping: newsData,
+            by: {$0.category.rawValue}
+        )
+    }
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(categories.keys.sorted(), id: \String.self) { key in
+                NewsRow(categoryName: "\(key) News".uppercased(), news: self.categories[key]!)
+            }
+        }
     }
 }
 
