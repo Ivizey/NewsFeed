@@ -45,10 +45,11 @@ struct NewsDetail: View {
                     Spacer()
                     ReadMoreButton()
                 }.padding(.top, 20)
-            }
-            .edgesIgnoringSafeArea(.top)
-            .navigationBarHidden(true)
+            }.padding(.top)
+                .padding(.bottom)
         }
+        .edgesIgnoringSafeArea(.top)
+        .navigationBarHidden(true)
     }
 }
 
