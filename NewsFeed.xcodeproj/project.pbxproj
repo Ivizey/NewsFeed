@@ -14,6 +14,7 @@
 		472E82CD240151D8007B771A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472E82CC240151D8007B771A /* Preview Assets.xcassets */; };
 		472E82D0240151D8007B771A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472E82CE240151D8007B771A /* LaunchScreen.storyboard */; };
 		472E82D8240157A5007B771A /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 472E82D7240157A5007B771A /* news.json */; };
+		472E82DA2401583E007B771A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472E82D92401583E007B771A /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		472E82CF240151D8007B771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		472E82D1240151D8007B771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		472E82D7240157A5007B771A /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		472E82D92401583E007B771A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				472E82C3240151D4007B771A /* AppDelegate.swift */,
 				472E82C5240151D4007B771A /* SceneDelegate.swift */,
 				472E82C7240151D4007B771A /* ContentView.swift */,
+				472E82D92401583E007B771A /* Data.swift */,
 				472E82D7240157A5007B771A /* news.json */,
 				472E82C9240151D8007B771A /* Assets.xcassets */,
 				472E82CE240151D8007B771A /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				472E82C4240151D4007B771A /* AppDelegate.swift in Sources */,
 				472E82C6240151D4007B771A /* SceneDelegate.swift in Sources */,
 				472E82C8240151D4007B771A /* ContentView.swift in Sources */,
+				472E82DA2401583E007B771A /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
