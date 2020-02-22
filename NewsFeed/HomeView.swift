@@ -19,7 +19,11 @@ struct HomeView: View {
         NavigationView {
             List(categories.keys.sorted(), id: \String.self) { key in
                 NewsRow(categoryName: "\(key) News".uppercased(), news: self.categories[key]!)
+                .frame(height: 320)
+                    .padding(.top)
+                    .padding(.bottom)
             }
+        .navigationBarTitle(Text("NEWS FEED"))
         }
     }
 }

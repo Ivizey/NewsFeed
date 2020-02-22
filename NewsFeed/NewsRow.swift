@@ -19,9 +19,11 @@ struct NewsRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
                     ForEach(self.news) { news in
+                        NavigationLink(destination: NewsDetail(news: news)) {
                         NewsItem(news: news)
                             .frame(width: 300)
                             .padding(.trailing, 30)
+                            }
                     }
                 }
             }

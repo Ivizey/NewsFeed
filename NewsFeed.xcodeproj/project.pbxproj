@@ -18,6 +18,7 @@
 		472E82DC240159F2007B771A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472E82DB240159F2007B771A /* News.swift */; };
 		472E82DE24015C3C007B771A /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472E82DD24015C3C007B771A /* NewsItem.swift */; };
 		472E82E0240166DD007B771A /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472E82DF240166DD007B771A /* NewsRow.swift */; };
+		472E82E224017981007B771A /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472E82E124017981007B771A /* NewsDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		472E82DB240159F2007B771A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		472E82DD24015C3C007B771A /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 		472E82DF240166DD007B771A /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
+		472E82E124017981007B771A /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				472E82C3240151D4007B771A /* AppDelegate.swift */,
 				472E82C5240151D4007B771A /* SceneDelegate.swift */,
 				472E82C7240151D4007B771A /* HomeView.swift */,
+				472E82E124017981007B771A /* NewsDetail.swift */,
 				472E82DD24015C3C007B771A /* NewsItem.swift */,
 				472E82DF240166DD007B771A /* NewsRow.swift */,
 				472E82D92401583E007B771A /* Data.swift */,
@@ -165,6 +168,7 @@
 				472E82C4240151D4007B771A /* AppDelegate.swift in Sources */,
 				472E82DE24015C3C007B771A /* NewsItem.swift in Sources */,
 				472E82C6240151D4007B771A /* SceneDelegate.swift in Sources */,
+				472E82E224017981007B771A /* NewsDetail.swift in Sources */,
 				472E82C8240151D4007B771A /* HomeView.swift in Sources */,
 				472E82DC240159F2007B771A /* News.swift in Sources */,
 				472E82E0240166DD007B771A /* NewsRow.swift in Sources */,
