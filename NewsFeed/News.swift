@@ -13,7 +13,7 @@ struct News: Hashable, Codable, Identifiable {
     var name: String
     var imageName: String
     var category: Category
-    var descriptiond: String
+    var description: String
     
     enum Category: String, CaseIterable, Codable, Hashable {
         case education = "education"
