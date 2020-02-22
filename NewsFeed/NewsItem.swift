@@ -19,7 +19,7 @@ struct NewsItem: View {
                 .frame(width: 300, height: 170)
                 .cornerRadius(5)
                 .shadow(radius: 10)
-            VStack {
+            VStack(alignment: .leading, spacing: 5.0) {
             Text(news.name)
                 .foregroundColor(.primary)
                 .font(.headline)
