@@ -18,7 +18,7 @@
   "name": "News 3",
   "imageName": "image_3",
   "description": "description for news 3",
-  "category": "education"
+  "category": "sport"
 }, 
 {
   "id": 1004,
@@ -32,13 +32,13 @@
   "name": "News 5",
   "imageName": "image_5",
   "description": "description for news 5",
-  "category": "world"
+  "category": "education"
 }, 
 {
   "id": 1006,
   "name": "News 6",
   "imageName": "image_6",
   "description": "description for news 6",
-  "category": "world"
+  "category": "education"
 }
 ]
