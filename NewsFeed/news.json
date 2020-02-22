@@ -1,0 +1,44 @@
+[
+{
+  "id": 1001,
+  "name": "News 1",
+  "imageName": "image_1",
+  "description": "description for news 1",
+  "category": "sport"
+}, 
+{
+  "id": 1002,
+  "name": "News 2",
+  "imageName": "image_2",
+  "description": "description for news 2",
+  "category": "sport"
+}, 
+{
+  "id": 1003,
+  "name": "News 3",
+  "imageName": "image_3",
+  "description": "description for news 3",
+  "category": "education"
+}, 
+{
+  "id": 1004,
+  "name": "News 4",
+  "imageName": "image_4",
+  "description": "description for news 4",
+  "category": "education"
+}, 
+{
+  "id": 1005,
+  "name": "News 5",
+  "imageName": "image_5",
+  "description": "description for news 5",
+  "category": "world"
+}, 
+{
+  "id": 1006,
+  "name": "News 6",
+  "imageName": "image_6",
+  "description": "description for news 6",
+  "category": "world"
+}
+]
