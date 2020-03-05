@@ -19,11 +19,15 @@ struct NewsRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
                     ForEach(self.news) { news in
-                        NavigationLink(destination: NewsDetail(news: news)) {
-                        NewsItem(news: news)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
+                        GeometryReader { geometry in
+                            NavigationLink(destination: NewsDetail(news: news)) {
+                            NewsItem(news: news)
+                                .frame(width: 300)
+                                .padding(.trailing, 30)
                             }
+                            .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX) - 40) / -20, axis: (x: 0, y: 10.0, z: 0))
+                        }
+                        .frame(width: 246)
                     }
                 }
             }
