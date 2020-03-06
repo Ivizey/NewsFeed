@@ -25,7 +25,7 @@ struct NewsRow: View {
                                 .frame(width: 300)
                                 .padding(.trailing, 30)
                             }
-                            .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX) - 40) / -30, axis: (x: 0, y: 10.0, z: 0))
+                            .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX) - 60) / -10, axis: (x: 0, y: 10.0, z: 0))
                         }
                         .frame(width: 200)
                         .padding(50)
